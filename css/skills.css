@@ -1,0 +1,59 @@
+.style-1 {
+  list-style-type: none;
+  padding: 0;
+  width: 350px;
+}
+.style-1 li {
+  position: relative;
+  height: 50px;
+}
+.style-1 li em, .style-1 li span {
+  display: block;
+  border-bottom: 5px solid #f2f2f2;
+  padding-bottom: 5px;
+}
+.style-1 li em {
+  font-style: normal;
+  border-bottom-color: #595959 ;
+  position: absolute;
+  overflow: visible;
+  -webkit-animation: grow-width 2s;
+          animation: grow-width 2s;
+}
+.style-1 li span {
+  text-align: right;
+  //display: none;
+}
+
+.spand {
+  text-align: right;
+}
+
+/* Made with love */
+.love {
+  bottom: auto;
+  right: auto;
+  transform: translateX(-50%) translateY(-50%);
+}
+.love a {
+  color: #000000;
+  text-decoration: none;
+}
+.love .fa {
+  color: #E90606;
+  margin: 0 3px;
+  font-size: 10px;
+  animation: pound 0.35s infinite alternate;
+  -webkit-animation: pound 0.35s infinite alternate;
+}
+
+@-webkit-keyframes pound {
+  to {
+    transform: scale(1.1);
+  }
+}
+@keyframes pound {
+  to {
+    transform: scale(1.1);
+  }
+}
