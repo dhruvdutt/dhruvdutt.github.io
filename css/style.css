@@ -500,18 +500,19 @@
 				white-space: nowrap;
 			}
 			.image.thumb1:after {
-				content: 'Ongoing';
+				margin:-1.25em 0 0 -4em;
+				content: 'View on Github';
 			}
 			.image.thumb2:after {
 				margin: -1.25em 0 0 -4em;
 				content: 'View on Github';
 			}
 			.image.thumb3:after {
-				margin: -1.25em 0 0 -4em;
-				content: 'Visit Website';
+				content: 'Ongoing';
 			}
 			.image.thumb4:after {
-				content: 'Ongoing';
+				margin:-1.25em 0 0 -4em;
+				content: 'Visit Website';
 			}
 			.image.thumb:hover:after {
 				opacity: 1.0;
