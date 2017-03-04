@@ -83,7 +83,7 @@
 
 	h2 {
 		font-size: 1.5em;
-		line-height: 1.5em;
+		line-height: 1em;
 	}
 
 	h3 {
@@ -573,6 +573,32 @@
 
 /* List */
 
+  .experience-title {
+    padding-bottom: 0.5rem;
+    padding-top: 0.2rem;
+  }
+
+  .experience-title .position {
+    font-size: 1.1rem;
+    cursor: pointer;
+    display:inline;
+  }
+
+  .experience-title .position:hover {
+    color: #49bf9d !important;
+  }
+
+  .experience-title .location {
+    font-size: 1rem;
+    color: darkgray;
+    margin-bottom: 0.2rem;
+    margin-top: 0.2rem;
+  }
+
+  .experience-title .location:hover {
+    color: gray;
+  }
+
 	ol {
 		list-style: decimal;
 		margin: 0 0 2em 0;
@@ -591,6 +617,7 @@
 
 		ul li {
 			padding-left: 0.5em;
+			padding-right: 0.5em;
 		}
 
 		ul.alt {
@@ -927,6 +954,10 @@
 		margin: 0 0 2em 0;
 	}
 
+  .work-item h3:hover {
+    color: #49bf9d !important;
+  }
+
 		.work-item .image {
 			margin: 0 0 1.5em 0;
 		}
@@ -1261,3 +1292,7 @@
 	body.is-touch .poptrox-popup .closer {
 		opacity: 1.0 !important;
 	}
+
+.experience-item h5 {
+  margin-bottom: 0.2rem;
+}
